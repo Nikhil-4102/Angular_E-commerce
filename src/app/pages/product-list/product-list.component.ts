@@ -31,7 +31,7 @@ export class ProductListComponent {
       title: 'Product 3',
       image: 'https://via.placeholder.com/150',
       price: 300,
-      stock: 30
+      stock: 0
     },
     {
       id: 4,

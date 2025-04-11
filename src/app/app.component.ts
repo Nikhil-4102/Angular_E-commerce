@@ -9,8 +9,11 @@ import { ProductListComponent } from "./pages/product-list/product-list.componen
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, HeaderComponent, ProductListComponent],
-  template: `<app-header/> 
-  <app-product-list/>`,
+  template:`
+        <app-header/>
+        <router-outlet/>
+        `,
+        
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
